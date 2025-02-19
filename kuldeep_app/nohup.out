@@ -1,0 +1,212 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 8084 is in use by another program. Either identify and stop that program, or start the server with a different port.
+ * Serving Flask app 'app'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8085
+ * Running on http://172.31.45.52:8085
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 671-843-952
+INFO:werkzeug:24.199.114.216 - - [04/Feb/2025 05:04:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:157.245.243.118 - - [04/Feb/2025 13:53:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:195.178.110.100 - - [04/Feb/2025 14:19:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:135.148.57.191 - - [04/Feb/2025 18:16:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:147.135.23.111 - - [04/Feb/2025 18:25:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:werkzeug:5.135.238.157 - - [04/Feb/2025 19:32:23] code 400, message Bad request version ('À#À¬À®À+À')
+INFO:werkzeug:5.135.238.157 - - [04/Feb/2025 19:32:23] "[35m[1m\x16\x03\x03\x01§\x01\x00\x01£\x03\x03Aâ\x1c>\x82'ÐÊÛû!p\x1d3\x1b±\x8alÎ\x91,ã·û1Áà¦3\x1cüy r±·â\x91ëa\x09\x07\x89ð\x14ã\x00ë\x8d\x11¡\x8bw\x88\x0f\x19¾è\x7fr\x8eóà\x12ø\x00\x8a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:5.135.238.157 - - [04/Feb/2025 19:32:27] "GET / HTTP/1.1" 200 -
+ERROR:werkzeug:51.178.236.242 - - [04/Feb/2025 19:38:42] code 400, message Bad request version ('À#À¬À®À+À')
+INFO:werkzeug:51.178.236.242 - - [04/Feb/2025 19:38:42] "[35m[1m\x16\x03\x03\x01§\x01\x00\x01£\x03\x03\x01\x11Üï ÂÃkÆñ%)lö\x03\x91ÝÃ×¯ÁÀH¾<\x92=Kh\x8eÏN Ëý¢(\x0b·#\x9dDC@?l*®)M'ö.ìü.\x1fK\x10¬¿¬Ar\x8f\x00\x8a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:51.178.236.254 - - [04/Feb/2025 19:38:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:werkzeug:194.50.16.252 - - [04/Feb/2025 23:04:25] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:194.50.16.252 - - [04/Feb/2025 23:04:25] "[35m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03·k\x1dÓZÏWù=Ï\x1f\x8cFaØ\x93\x01¿\x09[\x8b\x9béPÌI1¡>Ó]/ ;\x00yçHÔ©³z<Ã·Ûwe:z=Àæ®$^\x08Ö\x13Þ\x06xr²z\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:194.50.16.252 - - [04/Feb/2025 23:04:27] "GET / HTTP/1.1" 200 -
+ERROR:werkzeug:199.45.154.121 - - [05/Feb/2025 04:38:31] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:199.45.154.121 - - [05/Feb/2025 04:38:31] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x9aâK\x84Ö·L\x1b\x88ö\x08Ì[\x09\x9d\x98E3lt~v\x9f°\x82\x06¹\x88£m\x15\x15 vÏ\x9bÙìnI+$\x1cE\x89\x8e\x8d`,ÝïádGµ¼¸\x0eé÷³ÍÿQ\x0c\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:199.45.154.121 - - [05/Feb/2025 04:38:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:199.45.154.121 - - [05/Feb/2025 04:38:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:199.45.154.121 - - [05/Feb/2025 04:38:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:werkzeug:199.45.154.121 - - [05/Feb/2025 04:38:38] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:199.45.154.121 - - [05/Feb/2025 04:38:38] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:194.50.16.252 - - [05/Feb/2025 10:02:42] "[33mGET /appsettings.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:194.50.16.252 - - [05/Feb/2025 10:02:42] "[33mGET /appsettings.Production.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:194.50.16.252 - - [05/Feb/2025 10:02:43] "[33mGET /api/appsettings.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:194.50.16.252 - - [05/Feb/2025 10:02:43] "[33mGET /api/appsettings.Production.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:203.83.11.206 - - [05/Feb/2025 12:49:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:167.172.37.60 - - [05/Feb/2025 17:22:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:154.212.141.206 - - [05/Feb/2025 23:23:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:49.43.2.48 - - [06/Feb/2025 09:05:40] "[33mGET /hrm/employee HTTP/1.1[0m" 404 -
+INFO:werkzeug:49.43.2.48 - - [06/Feb/2025 09:05:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:49.43.2.48 - - [06/Feb/2025 09:05:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:49.43.2.48 - - [06/Feb/2025 09:05:52] "GET /cbs HTTP/1.1" 200 -
+INFO:werkzeug:49.43.2.48 - - [06/Feb/2025 09:06:02] "GET /hrms HTTP/1.1" 200 -
+INFO:werkzeug:139.99.35.47 - - [06/Feb/2025 09:26:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:15.235.189.155 - - [06/Feb/2025 09:35:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:139.59.102.93 - - [06/Feb/2025 10:16:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:195.178.110.100 - - [06/Feb/2025 19:19:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:162.142.125.203 - - [06/Feb/2025 19:58:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:162.142.125.203 - - [06/Feb/2025 19:58:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:werkzeug:162.142.125.203 - - [06/Feb/2025 19:58:53] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:162.142.125.203 - - [06/Feb/2025 19:58:53] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:147.185.132.237 - - [07/Feb/2025 04:41:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:5.135.58.200 - - [07/Feb/2025 06:30:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:137.184.155.177 - - [07/Feb/2025 09:17:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.241.155.120 - - [08/Feb/2025 02:48:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:3.15.179.240 - - [08/Feb/2025 15:22:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:137.184.158.149 - - [08/Feb/2025 18:23:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:118.194.250.232 - - [08/Feb/2025 18:40:40] "GET / HTTP/1.1" 200 -
+ERROR:werkzeug:118.194.250.232 - - [08/Feb/2025 18:40:41] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:118.194.250.232 - - [08/Feb/2025 18:40:41] "[35m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03F\x16k\x04v ¸\x14ÍòE¶:\x89Ù'%\x82z\x0887¬¥å3©Ì4ü¬u Y3xs°ÉHS\x97û.\x05}!b`R.oðAá|\x11QÊ\x98\x90Ö\x06VÝ\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:118.194.250.232 - - [08/Feb/2025 18:40:41] code 400, message Bad HTTP/0.9 request type ('t3')
+INFO:werkzeug:118.194.250.232 - - [08/Feb/2025 18:40:41] "[35m[1mt3 12.1.2[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:118.193.43.158 - - [08/Feb/2025 18:41:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:118.193.43.158 - - [08/Feb/2025 18:41:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:118.193.43.158 - - [08/Feb/2025 18:41:16] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:118.193.43.158 - - [08/Feb/2025 18:41:16] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.245.40.162 - - [08/Feb/2025 19:32:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:162.142.125.33 - - [08/Feb/2025 21:25:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:162.142.125.33 - - [08/Feb/2025 21:25:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:werkzeug:162.142.125.33 - - [08/Feb/2025 21:25:09] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:162.142.125.33 - - [08/Feb/2025 21:25:09] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:18.97.5.11 - - [09/Feb/2025 00:05:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:195.178.110.100 - - [09/Feb/2025 00:19:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:205.210.31.31 - - [09/Feb/2025 07:15:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:167.94.138.173 - - [09/Feb/2025 15:20:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:167.94.138.173 - - [09/Feb/2025 15:20:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:werkzeug:167.94.138.173 - - [09/Feb/2025 15:20:43] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.94.138.173 - - [09/Feb/2025 15:20:43] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+ERROR:werkzeug:185.42.12.52 - - [10/Feb/2025 01:38:23] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:185.42.12.52 - - [10/Feb/2025 01:38:23] "[35m[1m\x16\x03\x01\x00á\x01\x00\x00Ý\x03\x03+û\x81Ò)*¿vÃ\x09(¥\x17\x1e5cî\x99\x03¦VEåÅ\x85~î\x8dEý8ò \x98\x938\x122`k^NÛÁõ×¨£\x8e¯í\x80\\\x15\x04°z\x08\x09]'Ä)'\x07\x00$\x13\x03\x13\x01\x13\x02À/À+À0À,Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:185.42.12.52 - - [10/Feb/2025 01:38:24] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:185.42.12.52 - - [10/Feb/2025 01:38:24] "[35m[1m\x16\x03\x01\x00á\x01\x00\x00Ý\x03\x03}\x9d7¡\x80 ï~\x91 ¾¢{A\x8d´\x1cY\x13sÄ\x1dnx¡^2\x1a9ôvå 5N\x0f±oÿAñr\x13ç"o\x9eb{²S;óÄþ>õ\x86\x90A¤¡ZM_\x00$\x13\x03\x13\x01\x13\x02À/À+À0À,Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:205.210.31.129 - - [10/Feb/2025 02:49:00] "GET / HTTP/1.1" 200 -
+ERROR:werkzeug:167.94.138.166 - - [10/Feb/2025 05:22:59] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:167.94.138.166 - - [10/Feb/2025 05:22:59] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03öã\x8e\x1e[Ü1U½­áÅO\x15H0¯?¥\x06??§Ro\x0dN#hbo} ¥Ä\x16ý\x83ÂrÊ¶æ\x832Ï÷´H\x04\x0d\x01>;mÑ\x1b±\x87¡W¾ËXä\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:167.94.138.166 - - [10/Feb/2025 05:23:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:167.94.138.166 - - [10/Feb/2025 05:23:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:167.94.138.166 - - [10/Feb/2025 05:23:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:werkzeug:167.94.138.166 - - [10/Feb/2025 05:23:22] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.94.138.166 - - [10/Feb/2025 05:23:22] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:198.235.24.133 - - [10/Feb/2025 22:10:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:198.235.24.201 - - [11/Feb/2025 00:44:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:195.178.110.100 - - [11/Feb/2025 05:18:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.241.179.172 - - [11/Feb/2025 05:32:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:69.164.217.74 - - [11/Feb/2025 09:07:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:45.79.181.104 - - [11/Feb/2025 09:08:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:45.55.186.92 - - [11/Feb/2025 17:24:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:135.148.57.184 - - [11/Feb/2025 18:18:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:51.81.111.12 - - [11/Feb/2025 18:27:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:167.94.138.160 - - [11/Feb/2025 20:35:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:167.94.138.160 - - [11/Feb/2025 20:35:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:werkzeug:167.94.138.160 - - [11/Feb/2025 20:35:24] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.94.138.160 - - [11/Feb/2025 20:35:24] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:205.210.31.5 - - [12/Feb/2025 07:57:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:198.235.24.178 - - [12/Feb/2025 21:01:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:167.94.138.195 - - [13/Feb/2025 05:45:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:167.94.138.195 - - [13/Feb/2025 05:45:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:werkzeug:167.94.138.195 - - [13/Feb/2025 05:45:31] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.94.138.195 - - [13/Feb/2025 05:45:31] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:154.212.141.224 - - [13/Feb/2025 09:24:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:195.178.110.100 - - [13/Feb/2025 10:18:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:161.35.18.56 - - [13/Feb/2025 11:57:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:205.210.31.161 - - [14/Feb/2025 01:34:53] "GET / HTTP/1.1" 200 -
+ERROR:werkzeug:104.234.115.163 - - [14/Feb/2025 10:39:30] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03í\x01kL«·õ,R\x17\x8b°\x96Rtp\x992ýyê²WN\x86~L~^Fd')
+INFO:werkzeug:104.234.115.163 - - [14/Feb/2025 10:39:30] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03í\x01kL«·õ,R\x17\x8b°\x96Rtp\x992ýyê²WN\x86~L~^Fd[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:104.234.115.163 - - [14/Feb/2025 10:39:43] "GET / HTTP/1.1" 200 -
+ERROR:werkzeug:104.234.115.163 - - [14/Feb/2025 10:41:08] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:104.234.115.163 - - [14/Feb/2025 10:41:08] "[35m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03\x0c\x85Ï!\x80ßîP\x1c§3\x7f{\x1ecè.\x85\x06\x0b\x11NzIµÄ\x82.ä·5\x84\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:104.234.115.163 - - [14/Feb/2025 10:41:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:87.236.176.176 - - [14/Feb/2025 18:58:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:205.210.31.240 - - [14/Feb/2025 23:24:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:167.94.138.48 - - [15/Feb/2025 02:43:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:167.94.138.48 - - [15/Feb/2025 02:43:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:werkzeug:167.94.138.48 - - [15/Feb/2025 02:43:33] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.94.138.48 - - [15/Feb/2025 02:43:33] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:188.166.165.226 - - [15/Feb/2025 02:48:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:162.142.125.38 - - [15/Feb/2025 06:25:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:162.142.125.38 - - [15/Feb/2025 06:25:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:werkzeug:162.142.125.38 - - [15/Feb/2025 06:25:34] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:162.142.125.38 - - [15/Feb/2025 06:25:34] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:205.210.31.137 - - [15/Feb/2025 06:53:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:195.178.110.100 - - [15/Feb/2025 15:18:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:185.242.226.39 - - [15/Feb/2025 19:33:10] "GET / HTTP/1.1" 200 -
+ERROR:werkzeug:42.63.54.249 - - [15/Feb/2025 21:24:54] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:42.63.54.249 - - [15/Feb/2025 21:24:54] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03E\x98µ\x9foè×ôkämZUª» íÿ\x90.ª«#é1®ÅÓó>Ãã HÜßä.§"\x15\x1bE\x9dH\x7fJ\x161ý\x99#O~\x93Û¬LÁ\x1bÖ:ì\x00\x85\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:183.184.232.174 - - [15/Feb/2025 21:25:02] code 400, message Bad HTTP/0.9 request type ('USER')
+INFO:werkzeug:183.184.232.174 - - [15/Feb/2025 21:25:02] "[35m[1mUSER anonymous[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:206.81.24.48 - - [15/Feb/2025 22:30:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:159.203.160.69 - - [16/Feb/2025 08:57:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:206.168.34.72 - - [16/Feb/2025 12:36:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:206.168.34.72 - - [16/Feb/2025 12:36:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:werkzeug:206.168.34.72 - - [16/Feb/2025 12:36:19] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:206.168.34.72 - - [16/Feb/2025 12:36:19] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:167.94.138.191 - - [16/Feb/2025 17:16:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:167.94.138.191 - - [16/Feb/2025 17:16:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:werkzeug:167.94.138.191 - - [16/Feb/2025 17:16:28] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.94.138.191 - - [16/Feb/2025 17:16:28] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+ERROR:werkzeug:104.234.115.130 - - [16/Feb/2025 18:18:39] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:104.234.115.130 - - [16/Feb/2025 18:18:39] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x031³Hö\x7fß:\x8bï\x8c\x05ú5¾/ÚU(Ú2Øùe\x97\x90\x17 õBm\x06\x8d\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:104.234.115.130 - - [16/Feb/2025 18:19:04] "GET / HTTP/1.1" 200 -
+ERROR:werkzeug:104.234.115.130 - - [16/Feb/2025 18:20:41] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:104.234.115.130 - - [16/Feb/2025 18:20:41] "[35m[1m\x16\x03\x01\x00±\x01\x00\x00­\x03\x03<¶\x17æ§£\x84\x9aYcÔ\x1b\x84BV~,û?Ñ.C{ÒZ\x93¢H\x1c\x0c\x12·\x00\x00PÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:104.234.115.130 - - [16/Feb/2025 18:20:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:198.235.24.84 - - [16/Feb/2025 21:34:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:3.17.154.150 - - [17/Feb/2025 06:54:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:3.17.154.150 - - [17/Feb/2025 06:54:46] "GET / HTTP/1.1" 200 -
+ERROR:werkzeug:3.17.154.150 - - [17/Feb/2025 06:55:13] code 400, message Bad request version ('À\x14À')
+INFO:werkzeug:3.17.154.150 - - [17/Feb/2025 06:55:13] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03qåß2Úö\x15¯\x86\\I\x81²+ÃoDV\x8c!ãi\x99äº ç65øÛ\x0b\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:172.245.40.162 - - [17/Feb/2025 08:55:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:51.158.205.14 - - [17/Feb/2025 19:24:11] "HEAD / HTTP/1.1" 200 -
+ERROR:werkzeug:51.158.205.14 - - [17/Feb/2025 19:24:16] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+INFO:werkzeug:51.158.205.14 - - [17/Feb/2025 19:24:16] "[35m[1m\x16\x03\x01\x01\x19\x01\x00\x01\x15\x03\x03ÑÒß»ý\x0f£õb\x1bã\x04²ù¸\x93\x99\x9e\x02I¸YçóR\x8e2A\x8eÉ\x80« \x91Ê)Rþ'|C\x04\x10s\x18\x1f©|\x03\x84\x85:Y\x05»è[q\x04\x90\x19Ü\x8d?W\x00\x1a\x13\x02\x13\x03\x13\x01À+À/À,À0À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x00²ÿ\x01\x00\x01\x00\x00\x0b\x00\x04\x03\x00\x01\x02\x00[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:51.158.205.14 - - [17/Feb/2025 19:24:17] code 400, message Bad request version ('\x00\x04\x03\x00\x01\x02\x00')
+INFO:werkzeug:51.158.205.14 - - [17/Feb/2025 19:24:17] "[35m[1m\x16\x03\x01\x01\x19\x01\x00\x01\x15\x03\x03aV\x99\x80\x82B<£µ¥dTsz6x\x09+óM\x9bÈ*ò\x0b\x19\x15\x12TÎr© \x96Yñµÿ_ÀåÈf\x86\\`°p9ïNH7\x16\x85\x95\x8eÊ\x9f\x10\x8fcLý]\x00\x1a\x13\x02\x13\x03\x13\x01À+À/À,À0À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x00²ÿ\x01\x00\x01\x00\x00\x0b\x00\x04\x03\x00\x01\x02\x00[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:51.158.205.14 - - [17/Feb/2025 19:24:32] "GET / HTTP/1.1" 200 -
+ERROR:werkzeug:51.158.205.14 - - [17/Feb/2025 19:24:32] code 400, message Bad request version ('rx§(7$@')
+INFO:werkzeug:51.158.205.14 - - [17/Feb/2025 19:24:32] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ä\x04\x1c>?Â\\áÜ÷¡<ºHÌÒ\x83\x84\x1e\x01\x1a`g\x9d:\x85P\x9bnéwV l.j\x0crx§(7$@[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:51.158.205.14 - - [17/Feb/2025 19:24:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:51.158.205.14 - - [17/Feb/2025 19:24:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:51.158.205.14 - - [17/Feb/2025 19:24:34] "[33mGET /ads.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:51.158.205.14 - - [17/Feb/2025 19:24:34] "[33mGET /app-ads.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:51.158.205.14 - - [17/Feb/2025 19:24:35] "[33mGET /sellers.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:195.178.110.100 - - [17/Feb/2025 20:18:26] "GET / HTTP/1.1" 200 -
+ERROR:werkzeug:47.251.93.221 - - [17/Feb/2025 22:05:27] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:47.251.93.221 - - [17/Feb/2025 22:05:27] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03I\x06²ù¼\x99iÀYûøºe-\x83Ud]\x0e\x8d·b8´gÆÝ9dZ8f gÁ\x81i³öòË°©\x19NÖ½\x95g|püé<Z¡\x90T·é¥8'O;\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:47.251.93.221 - - [17/Feb/2025 22:05:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:167.94.138.174 - - [18/Feb/2025 02:54:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:167.94.138.174 - - [18/Feb/2025 02:54:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:werkzeug:167.94.138.174 - - [18/Feb/2025 02:54:46] code 505, message Invalid HTTP version (2.0)
+INFO:werkzeug:167.94.138.174 - - [18/Feb/2025 02:54:46] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+INFO:werkzeug:147.182.222.212 - - [18/Feb/2025 05:42:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:185.247.137.237 - - [18/Feb/2025 06:34:40] "GET / HTTP/1.1" 200 -
+ERROR:werkzeug:185.42.12.50 - - [18/Feb/2025 17:32:23] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:185.42.12.50 - - [18/Feb/2025 17:32:23] "[35m[1m\x16\x03\x01\x00á\x01\x00\x00Ý\x03\x03\x87\x80¢\x881\x08¨Æ³çEõo/*a\x9f­\x1fJ(\x97\x06¼B\x0fÂº§Y\x09\x9d \x7fëSîeë|\x9b´è\x12±\x15\x18H\x0etXÑáø÷(\x01Ä÷\x83\x93Õ\x1aàq\x00$\x13\x03\x13\x01\x13\x02À/À+À0À,Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:185.42.12.50 - - [18/Feb/2025 17:32:24] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:185.42.12.50 - - [18/Feb/2025 17:32:24] "[35m[1m\x16\x03\x01\x00á\x01\x00\x00Ý\x03\x03í\x05©ÔKÕ$\x0bWþV·(\x9e´£B\x990\x98\x1f:E\x85}Z}¿ot\x9b´ w\x9fÝ\x11\x86eÙ\x80\x94u\x10rúÍ¨\x12Ó´Ü\x10¢\x7f\x04T\x936Zô^à\x0bë\x00$\x13\x03\x13\x01\x13\x02À/À+À0À,Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:135.148.10.170 - - [18/Feb/2025 18:10:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:135.148.213.247 - - [18/Feb/2025 18:18:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:138.68.71.68 - - [18/Feb/2025 22:19:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:50.116.35.135 - - [18/Feb/2025 23:51:17] "GET / HTTP/1.0" 200 -
+INFO:werkzeug:45.156.128.111 - - [19/Feb/2025 02:16:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:45.156.128.113 - - [19/Feb/2025 02:17:13] "[33mGET /ext-js/app/common/zld_product_spec.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:45.33.22.36 - - [19/Feb/2025 03:44:51] "GET / HTTP/1.1" 200 -
+ERROR:werkzeug:18.166.88.66 - - [19/Feb/2025 04:23:32] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:18.166.88.66 - - [19/Feb/2025 04:23:32] "[35m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03c3Þ\x7f¥\x17dÄ\x1c\x88åÆ1Á\x95àþòö\x0e0;£%¢Í\x0d\x1fQ%`o %|B\x8b²èÕ398\x9dÂ©\x1a\\¾µ¯QÝfËìé·î\x19¡¾è?\x85\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:18.166.88.66 - - [19/Feb/2025 04:24:34] "[33mHEAD /actuator/env HTTP/1.1[0m" 404 -
+INFO:werkzeug:205.210.31.144 - - [19/Feb/2025 04:31:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:44.220.185.120 - - [19/Feb/2025 05:24:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:104.234.115.53 - - [19/Feb/2025 08:08:07] "[33mGET /manage/account/login HTTP/1.1[0m" 404 -
+INFO:werkzeug:104.234.115.53 - - [19/Feb/2025 08:08:28] "[33mGET /index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:104.234.115.53 - - [19/Feb/2025 08:08:42] "[33mGET /+CSCOE+/logon.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:104.234.115.53 - - [19/Feb/2025 08:08:51] "[33mGET /cgi-bin/login.cgi HTTP/1.1[0m" 404 -
+INFO:werkzeug:104.234.115.53 - - [19/Feb/2025 08:09:01] "[33mGET /login.htm HTTP/1.1[0m" 404 -
+INFO:werkzeug:104.234.115.53 - - [19/Feb/2025 08:09:10] "[33mGET /login.jsp HTTP/1.1[0m" 404 -
+INFO:werkzeug:104.234.115.53 - - [19/Feb/2025 08:09:19] "[33mGET /doc/index.html HTTP/1.1[0m" 404 -
+INFO:werkzeug:104.234.115.53 - - [19/Feb/2025 08:09:27] "[33mGET /remote/login HTTP/1.1[0m" 404 -
+INFO:werkzeug:104.234.115.53 - - [19/Feb/2025 08:09:38] "[33mGET /admin/login.asp HTTP/1.1[0m" 404 -
+INFO:werkzeug:68.183.13.202 - - [19/Feb/2025 08:19:34] "GET / HTTP/1.1" 200 -
