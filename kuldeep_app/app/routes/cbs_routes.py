@@ -9,9 +9,9 @@ cbs_routes = Blueprint('cbs_routes', __name__)
 @cbs_routes.route('/cbs', methods=['GET'])
 def cbs_api_overview():
     api_endpoints = {
-        "cbs_customers": "/cbs/customers",
+        "cbs_customers": "/cbs/customer",
         "cbs_feedback": "/cbs/feedback",
-        "cbs_transactions": "/cbs/transactions",
+        "cbs_transactions": "/cbs/transaction",
         "/cbs/account": "/cbs/account",
         "/cbs/loan": "/cbs/loan"
     }

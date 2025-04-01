@@ -16,4 +16,8 @@ def page_not_found(error):
 def api_overview():
     """Provide a welcome message and links to all available tables."""
     welcome_message = "Welcome to the Banking API. Below are the available endpoints for various tables in CRM, ERP, and HRMS systems."
-    return jsonify(welcome_message)
+    api_endpoints = {
+        "cbs": "/cbs",
+        "hrms": "/hrms"
+    }
+    return jsonify(welcome_message, api_endpoints)

@@ -9,7 +9,7 @@ hrms_routes = Blueprint('hrms_routes', __name__)
 @hrms_routes.route('/hrms', methods=['GET'])
 def hrm_api_overview():
     api_endpoints = {
-        "hrms_employees": "/hrms/employees",
+        "hrms_employees": "/hrms/employee",
         "hrms_attendance": "/hrms/attendance",
         "hrms_performance": "/hrms/performance",
         "hrms_time_tracking": "/hrms/time_tracking"
