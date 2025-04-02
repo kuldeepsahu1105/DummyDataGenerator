@@ -50,7 +50,7 @@ class CBSCustomer:
         }
 
 class CBSAccount:
-    def __init__(self, customer_id):
+    def __init__(self):
         self.account_id = fake.random_int(min=1, max=99999)
         self.account_number = fake.unique.random_int(min=100000000, max=999999999)
         self.customer_id = fake.random_int(min=1, max=99999)
@@ -80,7 +80,7 @@ class CBSAccount:
 
 
 class CBSFeedback:
-    def __init__(self, customer_id):
+    def __init__(self):
         self.feedback_id = fake.random_int(min=1000, max=9999999)
         self.customer_id = fake.random_int(min=1, max=99999)
         self.rating = random.choice([1, 2, 3, 4, 5])
@@ -97,7 +97,7 @@ class CBSFeedback:
         }
 
 class CBSTransaction:
-    def __init__(self, customer_id):
+    def __init__(self):
         self.transaction_id = fake.random_int(min=1000, max=999999999)
         self.customer_id = fake.random_int(min=1, max=99999)
         self.transaction_type = random.choice(['Deposit', 'Withdrawal', 'Transfer', 'UPI', 'Cheque', 'ATM', 'RTGS', 'NEFT'])
@@ -116,7 +116,7 @@ class CBSTransaction:
         }
 
 class CBSLoan:
-    def __init__(self, customer_id):
+    def __init__(self):
         self.loan_id = fake.random_int(min=1000, max=99999)
         self.customer_id = fake.random_int(min=1, max=99999)
         self.loan_type = random.choice(['Personal', 'Business', 'Mortgage'])
