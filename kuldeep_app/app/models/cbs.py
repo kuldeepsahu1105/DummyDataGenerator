@@ -51,10 +51,11 @@ class CBSCustomer:
 
 class CBSAccount:
     def __init__(self, customer_id):
+        self.account_id = fake.random_int(min=1, max=99999)
         self.account_number = fake.unique.random_int(min=100000000, max=999999999)
-        self.customer_id = customer_id
+        self.customer_id = fake.random_int(min=1, max=99999)
         self.account_type = random.choice(['Checking', 'Savings', 'Loan', 'Credit'])
-        self.current_balance = round(random.uniform(500, 50000), 2)
+        self.current_balance = round(random.uniform(500, 50000000), 2)
         self.account_status = random.choice(['Active', 'Dormant', 'Closed'])
         self.opening_date = fake.date_this_decade()
         self.branch_code = fake.random_int(min=1000, max=9999)
@@ -64,6 +65,7 @@ class CBSAccount:
 
     def to_dict(self) -> dict:
         return {
+            'account_id': self.account_id,
             'account_number': self.account_number,
             'customer_id': self.customer_id,
             'account_type': self.account_type,
@@ -76,10 +78,11 @@ class CBSAccount:
             'last_transaction_date': self.last_transaction_date  # Keeping as datetime object
         }
 
+
 class CBSFeedback:
     def __init__(self, customer_id):
-        self.feedback_id = fake.random_int(min=1000, max=999999)
-        self.customer_id = customer_id
+        self.feedback_id = fake.random_int(min=1000, max=9999999)
+        self.customer_id = fake.random_int(min=1, max=99999)
         self.rating = random.choice([1, 2, 3, 4, 5])
         self.comments = fake.text(max_nb_chars=200)
         self.submitted_at = fake.date_this_month()
@@ -95,8 +98,8 @@ class CBSFeedback:
 
 class CBSTransaction:
     def __init__(self, customer_id):
-        self.transaction_id = fake.random_int(min=1000, max=999999)
-        self.customer_id = customer_id
+        self.transaction_id = fake.random_int(min=1000, max=999999999)
+        self.customer_id = fake.random_int(min=1, max=99999)
         self.transaction_type = random.choice(['Deposit', 'Withdrawal', 'Transfer', 'UPI', 'Cheque', 'ATM', 'RTGS', 'NEFT'])
         self.amount = round(random.uniform(10, 500000000), 2)
         self.transaction_date = fake.date_this_month()
@@ -115,7 +118,7 @@ class CBSTransaction:
 class CBSLoan:
     def __init__(self, customer_id):
         self.loan_id = fake.random_int(min=1000, max=99999)
-        self.customer_id = customer_id
+        self.customer_id = fake.random_int(min=1, max=99999)
         self.loan_type = random.choice(['Personal', 'Business', 'Mortgage'])
         self.amount = round(random.uniform(1000, 50000000), 2)
         self.status = random.choice(['Approved', 'Rejected', 'Pending'])
