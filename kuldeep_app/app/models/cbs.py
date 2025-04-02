@@ -23,111 +23,74 @@ class CBSCustomer:
         self.relationship_manager_id = fake.random_int(min=1, max=1000)
         self.status = random.choice(['Active', 'Inactive', 'Lead', 'Prospect'])
         self.source = random.choice(['Website', 'Referral', 'Campaign', 'Social Media'])
-        self.created_at = fake.date_this_decade().isoformat()
-        self.updated_at = fake.date_this_year().isoformat()
+        self.created_at = fake.date_time_this_decade().strftime("%Y-%m-%d %H:%M:%S")
+        self.updated_at = fake.date_time_this_year().strftime("%Y-%m-%d %H:%M:%S")
 
     def to_dict(self) -> dict:
-        return {
-            'customer_id': self.customer_id,
-            'first_name': self.first_name,
-            'last_name': self.last_name,
-            'gender': self.gender,
-            'email': self.email,
-            'phone': self.phone,
-            'dob': self.dob,  # Keeping as datetime object
-            'address': self.address,
-            'city': self.city,
-            'state': self.state,
-            'postal_code': self.postal_code,
-            'country': self.country,
-            'status': self.status,
-            'source': self.source,
-            'created_at': self.created_at,  # Keeping as datetime object
-            'updated_at': self.updated_at,  # Keeping as datetime object
-            'kyc_status': self.kyc_status,
-            'customer_type': self.customer_type,
-            'relationship_manager_id': self.relationship_manager_id
-        }
+        return self.__dict__
 
 class CBSAccount:
     def __init__(self):
         self.account_id = fake.random_int(min=1, max=99999)
         self.account_number = fake.unique.random_int(min=100000000, max=999999999)
         self.customer_id = fake.random_int(min=1, max=99999)
-        self.account_type = random.choice(['Checking', 'Savings', 'Loan', 'Credit'])
-        self.current_balance = round(random.uniform(500, 50000000), 2)
-        self.account_status = random.choice(['Active', 'Dormant', 'Closed'])
-        self.opening_date = fake.date_this_decade().isoformat()
+        self.account_type = random.choice(['Savings', 'Current', 'Fixed Deposit'])
+        self.balance = round(random.uniform(500, 50000000), 2)
+        self.interest_rate = round(random.uniform(0.5, 5.0), 2)
         self.branch_code = fake.random_int(min=1000, max=9999)
         self.currency_type = random.choice(['USD', 'EUR', 'INR', 'GBP'])
-        self.interest_rate = round(random.uniform(0.5, 5.0), 2)
-        self.last_transaction_date = fake.date_this_month().isoformat()
+        self.account_status = random.choice(['Active', 'Dormant', 'Closed'])
+        self.last_transaction_date = fake.date_time_this_month().strftime("%Y-%m-%d %H:%M:%S")
+        self.created_at = fake.date_time_this_decade().strftime("%Y-%m-%d %H:%M:%S")
 
     def to_dict(self) -> dict:
-        return {
-            'account_id': self.account_id,
-            'account_number': self.account_number,
-            'customer_id': self.customer_id,
-            'account_type': self.account_type,
-            'current_balance': self.current_balance,
-            'opening_date': self.opening_date,  # Keeping as datetime object
-            'branch_code': self.branch_code,
-            'currency_type': self.currency_type,
-            'account_status': self.account_status,
-            'interest_rate': self.interest_rate,
-            'last_transaction_date': self.last_transaction_date  # Keeping as datetime object
-        }
-
-
-class CBSFeedback:
-    def __init__(self):
-        self.feedback_id = fake.random_int(min=1000, max=9999999)
-        self.customer_id = fake.random_int(min=1, max=99999)
-        self.rating = random.choice([1, 2, 3, 4, 5])
-        self.comments = fake.text(max_nb_chars=200)
-        self.submitted_at = fake.date_this_month().isoformat()
-
-    def to_dict(self) -> dict:
-        return {
-            'feedback_id': self.feedback_id,
-            'customer_id': self.customer_id,
-            'rating': self.rating,
-            'comments': self.comments,
-            'submitted_at': self.submitted_at  # Keeping as datetime object
-        }
+        return self.__dict__
 
 class CBSTransaction:
     def __init__(self):
         self.transaction_id = fake.random_int(min=1000, max=999999999)
-        self.customer_id = fake.random_int(min=1, max=99999)
-        self.transaction_type = random.choice(['Deposit', 'Withdrawal', 'Transfer', 'UPI', 'Cheque', 'ATM', 'RTGS', 'NEFT'])
+        self.account_number = fake.random_int(min=100000000, max=999999999)
+        self.transaction_type = random.choice(['Credit', 'Debit', 'Deposit', 'Withdrawal'])
         self.amount = round(random.uniform(10, 500000000), 2)
-        self.transaction_date = fake.date_this_month().isoformat()
-        self.status = random.choice(['Success', 'Failed'])
+        self.transaction_date = fake.date_time_this_month().strftime("%Y-%m-%d %H:%M:%S")
+        self.branch_code = fake.random_int(min=1000, max=9999)
+        self.transaction_reference_id = fake.uuid4()
+        self.currency_type = random.choice(['USD', 'EUR', 'INR', 'GBP'])
+        self.transaction_mode = random.choice(['Online', 'ATM', 'Cheque', 'Cash', 'Credit Card', 'Bank Transfer', 'UPI', 'RTGS'])
+        self.transaction_status = random.choice(['Confirmed', 'Pending', 'Declined', 'Success', 'Failed'])
+        self.transaction_due_date = fake.date_time_this_year().strftime("%Y-%m-%d %H:%M:%S")
+        self.description = fake.sentence()
 
     def to_dict(self) -> dict:
-        return {
-            'transaction_id': self.transaction_id,
-            'customer_id': self.customer_id,
-            'transaction_type': self.transaction_type,
-            'amount': self.amount,
-            'transaction_date': self.transaction_date,  # Keeping as datetime object
-            'status': self.status
-        }
+        return self.__dict__
 
 class CBSLoan:
     def __init__(self):
         self.loan_id = fake.random_int(min=1000, max=99999)
         self.customer_id = fake.random_int(min=1, max=99999)
-        self.loan_type = random.choice(['Personal', 'Business', 'Mortgage'])
-        self.amount = round(random.uniform(1000, 50000000), 2)
-        self.status = random.choice(['Approved', 'Rejected', 'Pending'])
+        self.loan_type = random.choice(['Home Loan', 'Personal Loan', 'Car Loan'])
+        self.principal_amount = round(random.uniform(1000, 50000000), 2)
+        self.interest_rate = round(random.uniform(1.5, 12.0), 2)
+        self.start_date = fake.date_time_this_decade().strftime("%Y-%m-%d %H:%M:%S")
+        self.end_date = fake.date_time_this_decade().strftime("%Y-%m-%d %H:%M:%S")
+        self.account_number = fake.random_int(min=100000000, max=999999999)
+        self.emi_amount = round(random.uniform(100, 50000), 2)
+        self.loan_status = random.choice(['Approved', 'Rejected', 'Pending', 'Active', 'Closed', 'Defaulted'])
+        self.outstanding_balance = round(random.uniform(0, 5000000), 2)
 
     def to_dict(self) -> dict:
-        return {
-            'loan_id': self.loan_id,
-            'customer_id': self.customer_id,
-            'loan_type': self.loan_type,
-            'amount': self.amount,
-            'status': self.status
-        }
+        return self.__dict__
+
+class CBSFeedback:
+    def __init__(self):
+        self.feedback_id = fake.random_int(min=1000, max=9999999)
+        self.customer_id = fake.random_int(min=1, max=99999)
+        self.branch_id = fake.random_int(min=100, max=9999)
+        self.feedback_date = fake.date_time_this_month().strftime("%Y-%m-%d %H:%M:%S")
+        self.feedback_type = random.choice(['Complaint', 'Praise', 'Suggestion'])
+        self.feedback_rating = random.randint(1, 5)
+        self.feedback_status = random.choice(['Open', 'Resolved'])
+        self.feedback_comment = fake.text(max_nb_chars=200)
+
+    def to_dict(self) -> dict:
+        return self.__dict__

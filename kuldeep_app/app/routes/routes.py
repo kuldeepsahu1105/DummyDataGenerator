@@ -15,7 +15,7 @@ def page_not_found(error):
 @routes.route('/', methods=['GET'])
 def api_overview():
     """Provide a welcome message and links to all available tables."""
-    welcome_message = "Welcome to the Banking API. Below are the available endpoints for various tables in CRM, ERP, and HRMS systems."
+    welcome_message = "Welcome to the Banking API. Below are the available endpoints for various tables in CBS, and HRMS systems."
     api_endpoints = {
         "cbs": "/cbs",
         "hrms": "/hrms"
