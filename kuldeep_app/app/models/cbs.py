@@ -11,7 +11,7 @@ class CBSCustomer:
         self.last_name = fake.last_name()
         self.email = fake.email()
         self.phone = fake.phone_number()
-        self.dob = fake.date_of_birth()
+        self.dob = fake.date_of_birth().isoformat()
         self.address = fake.address()
         self.city = fake.city()
         self.state = fake.state()
@@ -23,8 +23,8 @@ class CBSCustomer:
         self.relationship_manager_id = fake.random_int(min=1, max=1000)
         self.status = random.choice(['Active', 'Inactive', 'Lead', 'Prospect'])
         self.source = random.choice(['Website', 'Referral', 'Campaign', 'Social Media'])
-        self.created_at = fake.date_this_decade()
-        self.updated_at = fake.date_this_year()
+        self.created_at = fake.date_this_decade().isoformat()
+        self.updated_at = fake.date_this_year().isoformat()
 
     def to_dict(self) -> dict:
         return {
@@ -57,11 +57,11 @@ class CBSAccount:
         self.account_type = random.choice(['Checking', 'Savings', 'Loan', 'Credit'])
         self.current_balance = round(random.uniform(500, 50000000), 2)
         self.account_status = random.choice(['Active', 'Dormant', 'Closed'])
-        self.opening_date = fake.date_this_decade()
+        self.opening_date = fake.date_this_decade().isoformat()
         self.branch_code = fake.random_int(min=1000, max=9999)
         self.currency_type = random.choice(['USD', 'EUR', 'INR', 'GBP'])
         self.interest_rate = round(random.uniform(0.5, 5.0), 2)
-        self.last_transaction_date = fake.date_this_month()
+        self.last_transaction_date = fake.date_this_month().isoformat()
 
     def to_dict(self) -> dict:
         return {
@@ -85,7 +85,7 @@ class CBSFeedback:
         self.customer_id = fake.random_int(min=1, max=99999)
         self.rating = random.choice([1, 2, 3, 4, 5])
         self.comments = fake.text(max_nb_chars=200)
-        self.submitted_at = fake.date_this_month()
+        self.submitted_at = fake.date_this_month().isoformat()
 
     def to_dict(self) -> dict:
         return {
@@ -102,7 +102,7 @@ class CBSTransaction:
         self.customer_id = fake.random_int(min=1, max=99999)
         self.transaction_type = random.choice(['Deposit', 'Withdrawal', 'Transfer', 'UPI', 'Cheque', 'ATM', 'RTGS', 'NEFT'])
         self.amount = round(random.uniform(10, 500000000), 2)
-        self.transaction_date = fake.date_this_month()
+        self.transaction_date = fake.date_this_month().isoformat()
         self.status = random.choice(['Success', 'Failed'])
 
     def to_dict(self) -> dict:

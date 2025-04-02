@@ -16,7 +16,7 @@ class HRMSEmployee:
         self.phone = fake.phone_number()
         self.department = random.choice(['Sales', 'Operations', 'IT', 'Finance', 'HR'])
         self.position = random.choice(['Manager', 'Associate', 'Director', 'Executive', 'Teller', 'Customer Service'])
-        self.hire_date = fake.date_this_decade()  # Should be a datetime object in actual DB
+        self.hire_date = fake.date_this_decade().isoformat()  # Should be a datetime object in actual DB
         self.salary = round(random.uniform(25000, 120000), 2)
         self.status = random.choice(['Active', 'Inactive'])
         self.branch_id = fake.random_int(min=1000, max=9999)
@@ -41,7 +41,7 @@ class HRMSAttendance:
     def __init__(self):
         self.attendance_id = fake.random_int(min=1000, max=99999)
         self.employee_id = fake.random_int(min=1, max=99999)
-        self.date = fake.date_this_month()  # Should be a datetime object
+        self.date = fake.date_this_month().isoformat()  # Should be a datetime object
         self.status = random.choice(['Present', 'Absent'])
 
     def to_dict(self) -> dict:
@@ -57,7 +57,7 @@ class HRMSTimeTracking:
     def __init__(self):
         self.time_tracking_id = fake.random_int(min=1000, max=99999)
         self.employee_id = fake.random_int(min=1, max=99999)
-        self.date = fake.date_this_month()  # Should be a datetime object
+        self.date = fake.date_this_month().isoformat()  # Should be a datetime object
         self.hours_worked = round(random.uniform(4, 10), 2)
         self.overtime_hours = round(random.uniform(0, 3), 2)
         self.status = random.choice(['Approved', 'Pending', 'Rejected'])
@@ -78,7 +78,7 @@ class HRMSPerformance:
         self.performance_id = fake.random_int(min=1000, max=99999)
         self.employee_id = fake.random_int(min=1, max=99999)
         self.performance_rating = random.choice([1, 2, 3, 4, 5])
-        self.review_date = fake.date_this_year()  # Should be a datetime object
+        self.review_date = fake.date_this_year().isoformat()  # Should be a datetime object
         self.comments = fake.text(max_nb_chars=150)
 
     def to_dict(self) -> dict:
