@@ -1,0 +1,69 @@
+customer
+{
+  "address": "78145 Jenkins Hill Apt. 912\nNew Emily, AK 68938",
+  "city": "West David",
+  "country": "Northern Mariana Islands",
+  "created_at": "2020-09-25 20:59:39",
+  "customer_id": 22,
+  "customer_status": "Inactive",
+  "customer_type": "Corporate",
+  "dob": "1987-06-05",
+  "email": "davidgonzales@example.net",
+  "first_name": "Brittney",
+  "gender": "Other",
+  "kyc_status": "Verified",
+  "last_name": "Reynolds",
+  "phone": "+1-991-456-4723x96857",
+  "postal_code": "23969",
+  "relationship_manager_id": 46,
+  "source": "Social Media",
+  "state": "Oregon",
+  "updated_at": "2025-01-19 12:03:48"
+}
+
+loan
+{
+  "account_number": 979689405,
+  "customer_id": 39,
+  "emi_amount": 31552.72,
+  "end_date": "2021-10-28 01:48:29",
+  "interest_rate": 11.34,
+  "loan_id": 87,
+  "loan_status": "Defaulted",
+  "loan_type": "Home Loan",
+  "outstanding_balance": 4975898.02,
+  "principal_amount": 5967554.74,
+  "start_date": "2024-12-14 08:08:13"
+}
+
+account
+{
+  "account_id": 59,
+  "account_number": 94,
+  "account_status": "Closed",
+  "account_type": "Savings",
+  "balance": 41983606.22,
+  "branch_id": 65,
+  "created_at": "2022-06-16 16:32:05",
+  "currency_type": "GBP",
+  "customer_id": 13,
+  "interest_rate": 2.09,
+  "last_transaction_date": "2025-05-04 19:05:47"
+}
+
+
+transaction
+{
+  "account_number": 66,
+  "amount": 173309659.62,
+  "branch_id": 64,
+  "currency_type": "EUR",
+  "description": "Community too tonight.",
+  "transaction_date": "2025-05-05 12:08:57",
+  "transaction_due_date": "2025-01-31 17:33:24",
+  "transaction_id": 82,
+  "transaction_mode": "Credit Card",
+  "transaction_reference_id": "aacd2b7d-2d56-4460-8109-862597399772",
+  "transaction_status": "Pending",
+  "transaction_type": "Debit"
+}
